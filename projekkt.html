@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Híres emberek</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .card h2 {
+            margin: 10px 0;
+        }
+
+        .card p {
+            padding: 0 15px 15px;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Híres emberek</h1>
+    <p>Ismerj meg néhányat a történelem legbefolyásosabb személyei közül</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Albert_Einstein_1921.jpg" alt="Albert Einstein">
+        <h2>Albert Einstein</h2>
+        <p>Elméleti fizikus, a relativitáselmélet megalkotója.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Oprah_Winfrey_2010.jpg" alt="Oprah Winfrey">
+        <h2>Oprah Winfrey</h2>
+        <p>Médiaszemélyiség, színésznő és híres talkshow műsorvezető.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Elon_Musk_Royal_Society.jpg" alt="Elon Musk">
+        <h2>Elon Musk</h2>
+        <p>Vállalkozó, a Tesla és a SpaceX vezetője, technológiai újító.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Mother_Teresa_1.jpg" alt="Teréz anya">
+        <h2>Teréz anya</h2>
+        <p>Humanitárius, aki az emberek megsegítésének szentelte életét.</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Híres emberek weboldal</p>
+</footer>
+
+</body>
+</html>
